@@ -1,1 +1,1 @@
-![image](https://github.com/dyinnz/uniquecv/blob/master/example.jpg)
+![image](https://github.com/Cefixime/uniquecv/resume.png)
