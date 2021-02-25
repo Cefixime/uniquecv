@@ -1,1 +1,1 @@
-![image](https://github.com/Cefixime/uniquecv/tree/resume.png)
+![image](https://github.com/Cefixime/uniquecv/blob/resume.png)
