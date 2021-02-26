@@ -23,6 +23,7 @@
 
 \section{教育背景}
 \dateditem{\textbf{华中科技大学} \quad 计算机科学与技术学院 \quad 本科}{2018年 -- 2022年}
+\dateditem{校三好学生}{2019年、2020年}
 成绩：年级前5\% \quad 英语：CET6
 
 
@@ -30,8 +31,11 @@
 
 \section{专业技能}
 \smallskip
-熟悉C/C++, 了解和使用过Go、Python和Java
-
+\begin{itemize}
+\item 熟悉C语言，了解和使用过C/C++、Python、Golang
+\item 熟悉大部分数据结构和算法
+\item 对计算机网络和操作系统有一定的了解
+\end{itemize}
 
 % ----------------------------------------------------------------------------- %
 
@@ -44,47 +48,46 @@
 
 \section{项目经历}
 
-
-% ---
-\datedproject{SAT求解器}{课设项目}{2020年01月}
-\textit{C、数据结构}
-\vspace{0.4ex}
-
-使用C语言实现了一个简易SAT问题的求解器，支持将二进制数独转化为SAT问题进行求解，并构建了一个基于题库生成数独的二进制数独游戏。
-\begin{itemize}
-  \item 布尔可满足问题的求解
-  \item 使用CDCL（冲突子句学习）方法进行智能回溯
-\end{itemize}
-\medskip
-% ---
-\datedproject{“Huster爱选课”选课系统}{课设项目}{2020年12月}
-\textit{Python、Web应用}
-\vspace{0.4ex}
-基于Flask框架实现了一个选课系统，能够模拟学生选课、教师发布课程和审批学生选课功能
-\begin{itemize}
-\item 这是一个没有分点陈述的项目，如果没有分点陈述，LaTeX的排版会是什么样子？
-\item 这是一个没有分点陈述的项目，如果没有分点陈述，LaTeX的排版会是什么样子？
-\item 这是一个没有分点陈述的项目，如果没有分点陈述，LaTeX的排版会是什么样子？
-\item 这是一个没有分点陈述的项目，如果没有分点陈述，LaTeX的排版会是什么样子？
-\end{itemize}
-\medskip
-% ---
 \datedproject{TinyKV}{开源项目}{2020年12月——2021年01月}
 \textit{Go、分布式KV数据库}
 \vspace{0.4ex}
 
-使用C++实现了一个简单C语言编译器，支持生成到目标代码。
-使用C++实现了一个简单C语言编译器，支持生成到目标代码。
-使用C++实现了一个简单C语言编译器，支持生成到目标代码。
+
+基于Go语言的分布式 Key-Value 数据库课程，接近TiKV的实现。在基于已有调度逻辑的基础上
+从 0 到 1 实现了一个完整可用的分布式 KV 服务。
 \begin{itemize}
-  \item 支持C11标准大部分标准
-  \item 实现了类似lex/flex的词法解析器生成工具
-  \item 实现了类似yacc/bison的语法解析器生成工具
-  \item 实现了类似yacc/bison的语法解析器生成工具
-  \item 实现了类似yacc/bison的语法解析器生成工具
-  \item 实现了类似yacc/bison的语法解析器生成工具
-  \item 后端部分采用窥孔优化
+  \item 基于gRPC进行远程过程调用
+  \item 基于Raft协议实现的多副本高可用KV server
+  \item 基于 Percolator 模型实现分布式事务
+  \item 实现了多机节点的数据均衡调度
+  \item 通过了绝大多数测试点
 \end{itemize}
+% ---
+\datedproject{“Huster爱选课”选课系统}{团队项目}{2020年12月}
+\textit{Python、Web应用}
+\vspace{0.4ex}
+
+项目实现了一个选课系统，能够模拟学生选课、教师发布课程和审批学生选课功能。
+\begin{itemize}
+  \item 采用Flask框架进行快速开发
+  \item 数据库使用sqlite，ORM框架使用SQLAlchemy
+  \item 担任后端开发角色，完成了业务逻辑处理模块和数据库模块
+\end{itemize}
+
+\medskip
+% ---
+\datedproject{SAT求解器}{个人项目}{2020年01月}
+\textit{C、数据结构}
+\vspace{0.4ex}
+
+使用C语言实现的一个简易N-SAT问题的求解器
+\begin{itemize}
+  \item 运用CDCL（冲突子句学习）方法加快回溯
+  \item 搜索过程使用了链式结构存储减小内存消耗
+  \item 实现了朴素算法10x加速比
+\end{itemize}
+\medskip
+% ---
 
 
 % ----------------------------------------------------------------------------- %
